@@ -2,12 +2,8 @@
 applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
-  random-route: pal-tracker-lakshmi-nagappan.apps.evans.pal.pivotal.io
+  routes
+  - route: pal-tracker-lakshmi-nagappan.apps.evans.pal.pivotal.io
   env:
     WELCOME_MESSAGE: Hello from the review environment
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
-    CF_API_URL: api.sys.evans.pal.pivotal.io
-    CF_ORG: lakshmi.nagappan.fedex.com
-    CF_SPACE: apps.evans.pal.pivotal.io
-    CF_USERNAME: lakshmi.nagappan@fedex.com
-    CF_PASSWORD: rpky3jcp
