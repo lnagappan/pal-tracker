@@ -9,7 +9,7 @@ applications:
   disk_quota: 256M
   instances: 3
   health-check-type: port
-  timeout: 60
+  timeout: 10
   routes:
   - route: pal-tracker-lakshmi-nagappan.apps.evans.pal.pivotal.io
   env:
